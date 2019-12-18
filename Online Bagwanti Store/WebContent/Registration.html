@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="registrationNew.css">
+
+</head>
+<body>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
+
+
+<div class="testbox">
+
+
+  <h1>Registration</h1>
+ 
+
+  <form action="MainClass" method="post">
+  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <input type="text" name="cname" id="name" placeholder="Name" required/>
+  <br/> <br/>
+  <div class="gender">
+       <input type="radio" value="Male" id="male" name="gender" checked/>
+    <label for="male" class="radio" checked>Male</label>
+    <input type="radio" value="Female" id="female" name="gender" />
+    <label for="female" class="radio">Female</label>
+    
+   </div> 
+   
+  <label id="icon" for="name"><i class="icon-envelope "></i></label>
+  <input type="text" name="email" id="name" placeholder="Email" required/>
+  
+   <label id="icon" for="name"><i class="icon-shield"></i></label>
+  <input type="password" name="pswd" id="name" placeholder="Password" required/>
+  
+    <label id="icon" for="name"> <img src="images/3.png" alt="map" style="width:20px;height:20px;background-color:white;"/></label>
+                              <select  name="city" style="width:200px;height:45px;border-radius:5px;" >
+                                    <option >Select your city</option>
+                                    <option value="Delhi">Greater Noida</option>
+                                    <option value="Noida">Noida</option>
+                                    <option value="agra">Agra</option>
+                                    <option value="goa">Goa</option>
+                                    <option value="Aligarh">Aligarh</option>
+                                    <option value="Lucknow">Lucknow</option>
+                                </select>                    
+              
+   <p>By clicking Register, you agree on our <a href="#">terms and condition</a>.</p>
+   <input type="submit" id="button" name="submit" value="Submit"  >
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+D:\javacode\Apni Dukan\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+487376808.index
+3960523187.index
+347246178.index
+3158374615.index
+2465950240.index

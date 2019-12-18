@@ -1,0 +1,31 @@
+.div{
+    border:2px solid darkviolet;
+    background-color: black;
+    color:white;
+width:250px;;
+    font-size:30px;
+  
+}
+
+table tr td{
+    padding:5px;
+    
+}
+
+table tr td input
+{
+    font-size:30px;
+font-family: 'Times New Roman', Times, serif;
+    width:50px;
+    background-color: aliceblue;
+    margin:3px; 
+}
+
+.equals
+{
+    height:230px;
+   background-color:orange;
+}
+table{
+    border-collapse: collapse;
+}

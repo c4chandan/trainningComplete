@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>User registration</title>
+    <link rel="Stylesheet" type="text/css" href="userRegistration.css">
+    
+    <script language="javascript" type="text/javascript" src="result.js"></script>
+    
+</head>
+<body>
+    <center> <div>
+            <form action="successfully.html" method="POST">
+        <table>
+            <tr>
+                    <td><label> First Name :</label> </td>    
+                    <td id="fn"> </td>                                  
+            </tr>
+            <tr>
+                    <td><label> Last Name :</label> </td>
+                    <td  id="ln"></td>                      
+            </tr>
+            <tr>
+                    <td><label> Age :</label> </td>
+                    <td id="ag2"></td>                      
+            </tr>
+    
+            
+            <tr>
+                    <td><label> Gender :</label> </td>
+                    <td id="gender"> </td>                      
+            </tr>
+            
+                <tr>
+                        <td><label>Address :</label> </td>
+                        <td id="txtara"></td>                      
+                </tr>
+                
+
+        </table>
+    </form>
+
+    <script>
+            console.log(document.getElementById("fn"));
+                document.getElementById("fn").innerHTML=localStorage.getItem("fname");
+                
+                
+                console.log(document.getElementById("ln"));
+
+                document.getElementById("ln").innerHTML=localStorage.getItem("Lname");
+              
+                console.log(document.getElementById("ag2"));
+                document.getElementById("ag2").innerHTML=localStorage.getItem("age1");
+
+                console.log(document.getElementById("gender"));
+                document.getElementById("gender").innerHTML=localStorage.getItem("gen");
+                
+                console.log(document.getElementById("txtara"));
+                document.getElementById("txtara").innerHTML=localStorage.getItem("address");
+
+        </script>
+    </div></center>
+
+</body>
+</html>
+
+

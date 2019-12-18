@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Nov 19 14:30:03 IST 2019
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\chandan.sharma\\.m2\\repository\\org\\springframework\\spring-web\\5.2.1.RELEASE\\spring-web-5.2.1.RELEASE.jar=WEB-INF/lib/spring-web-5.2.1.RELEASE.jar
+org.eclipse.jst.j2ee.server\:Backend=WEB-INF/lib/Backend-0.0.1-SNAPSHOT.jar

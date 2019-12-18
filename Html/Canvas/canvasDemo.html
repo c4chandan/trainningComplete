@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Static Clock</title>
+    </head>
+    <body>
+        <canvas id="mycanvas" width="1000" height="850" style="border:1px solid black"; >
+
+        </canvas>
+        <script type="text/javascript">
+        
+        var canvas=document.getElementById("mycanvas");
+        var ctx=canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(500,400,300,0,2 * Math.PI,true);
+        ctx.fillStyle="GREY";
+        ctx.fill();
+        ctx.beginPath();
+
+ctx.fillStyle="CYAN";
+          ctx.arc(500,400,250,0,2 * Math.PI);
+       ctx.fill();
+        ctx.beginPath();
+       
+       ctx.fillStyle="GREEN";
+          ctx.arc(500,400,240,0,2 * Math.PI);
+       ctx.fill();
+       ctx.beginPath();
+       
+       ctx.fillStyle="lightgray";
+          ctx.arc(500,400,230,0,2 * Math.PI);
+          
+       ctx.fill();
+       ctx.beginPath();
+       
+       ctx.fillStyle="black";
+          ctx.arc(500,400,10,0,2 * Math.PI);
+          
+       ctx.fill();
+ctx.closePath();
+
+
+       ctx.font="40px Arial";
+       ctx.beginPath();
+       ctx.strokeText(12,480,230 );
+
+
+       ctx.fillSet= "black";
+       ctx.strokeText(11,380,250);
+   
+       ctx.strokeText(10,310,320);
+      
+   
+       ctx.strokeText(9,290,400);
+      
+       ctx.strokeText(8,310,480);
+      
+       ctx.strokeText(7,370,560);
+      
+       ctx.strokeText(6,480,600 );
+       ctx.strokeText(5,600,570 );
+   
+       ctx.strokeText(4,650,500 );
+       ctx.strokeText(3,680,410 );
+   
+       ctx.strokeText(2,650,320 );
+
+       ctx.strokeText(1,590,260 );
+
+
+      ctx.beginPath();        
+    ctx.moveTo(500 ,250);
+    ctx.lineTo(500,400);
+    ctx.lineWidth=7;
+    ctx.strokeStyle="red";
+        ctx.stroke();
+        
+      ctx.beginPath();        
+    ctx.moveTo(680 ,400);
+    ctx.lineTo(500,400);
+    ctx.lineWidth=7;
+    ctx.strokeStyle="red";
+        ctx.stroke();
+
+        ctx.beginPath();        
+    ctx.moveTo(490 ,580);
+    ctx.lineTo(500,400);
+    ctx.lineWidth=2;
+    ctx.strokeStyle="red";
+        ctx.stroke();
+        </script>
+    </body>
+</html>

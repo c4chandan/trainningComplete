@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>
+            show time
+        </title>
+    </head>
+    <body>
+            <p id="getTime" > </p>
+        <script>
+
+
+
+function RefreshPage(a) {
+	setTimeout("location.reload(true);",a);
+}
+
+window.onload = RefreshPage(1000);
+
+var curDate=new Date();
+                hh= curDate.getHours();
+                mm= curDate.getMinutes();
+                ss= curDate.getSeconds();
+                if(hh<9){
+                    hh="0"+hh;
+                }
+                if(mm<9){
+                    mm="0"+mm;
+                }
+                if(ss<9){
+                    ss="0"+ss;
+                }
+                output=hh+":"+mm+":"+ss;
+                document.getElementById("getTime").innerHTML=output;
+
+        </script>
+
+    
+    </body>
+</html>

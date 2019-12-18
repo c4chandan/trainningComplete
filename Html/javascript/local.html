@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            Fetch File
+        </title>
+
+    </head>
+    <body>
+        <form>
+            Select Product : <select id="product">
+                
+                    <option > Select Products</option>
+                <option values="Fruits"> Fruits</option>
+                <option values="Mobiles"> Mobile</option>
+                <option values="vegitables"> Vegitables</option>
+                <option values="Shoes"> Shoes</option>
+                 </select>
+                 Qty: <input type="text" id="qtxt"  />
+                 <input type="input" id="getbtn" onclick="saveProducts()">Add</input>
+                 
+                 <input type="input" id="getbtn" onclick="getProductsDetails()">Show Products</input>
+        </form>
+        <script type="text/javascript">
+        function saveProducts()
+        {
+            var data=document.getElementById("product").value;
+            
+            var data2=document.getElementById("qtxt").value;
+            localStorage.setItem("sproducts",data + "your Qty: "+ data2);
+        }
+        function getProductsDetails()
+        {
+            var fetchedData=localStorage.getItem("sproducts");
+            alert("your product is: "+fetchedData);
+        }
+        </script>
+        <div id="sproducts">
+                                </div>
+    </body>
+</html>

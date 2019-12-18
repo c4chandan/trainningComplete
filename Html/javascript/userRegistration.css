@@ -1,0 +1,56 @@
+body{
+    background-color:lightblue;
+}
+label{
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table tr td{
+    font-size: 20px;
+    padding:10px 20px;
+    margin:5px;
+}
+
+table tr td input
+{
+    border-radius:5px;
+    width:200px;
+    height:25px;
+    text-align: center;
+    color:black;
+}
+.select
+{
+    border-radius:5px;
+    width:200px;
+    height:25px;
+}
+
+
+table tr td input:focus
+{
+   background-color:lightsalmon;
+}
+
+
+table tr td select:focus
+{
+   background-color: lightsalmon;
+   color:white;
+}
+
+
+table tr td textarea:focus
+{
+   background-color: lightsalmon;
+   color:white;
+}
+
+.button
+{
+    color:white;
+    background-color: orange;
+    
+    padding: 5px;
+margin:5px;
+}

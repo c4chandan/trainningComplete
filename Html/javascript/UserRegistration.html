@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>User registration</title>
+        <link rel="Stylesheet" type="text/css" href="userRegistration.css">
+        <script language="javascript" type="text/javascript" src="result.js"></script>
+    </head>
+    <body>
+       <center> <div>
+              <form onsubmit="submitForm()" action="successfully.html" method="POST">
+            <table>
+                <tr>
+                        <td><label> First Name</label> </td>    
+                        <td><input type="text" id="uname"  required placeholder="First Name"></td>                                  
+                </tr>
+                <tr>
+                        <td><label> Last Name</label> </td>
+                        <td><input type="text" id="Lastname"  required placeholder="Last name"></td>                      
+                </tr>
+                <tr>
+                        <td><label> Age</label> </td>
+                        <td><input type="number" id="age"  required placeholder="Age"></td>                      
+                </tr>
+      
+                
+                <tr>
+                        <td><label> Gender</label> </td>
+                        <td>    <select id="Gender" class="select">
+                            <option value="none">Select your Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select></td>                      
+                </tr>
+               
+                    <tr>
+                            <td><label>Address</label> </td>
+                            <td><textarea rows="10" cols="30" id="txtarea" class="textarea"></textarea></td>                      
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td><input type="submit" class="button" id="submitbtn" value="Submit" ></td>                      
+                    </tr>
+
+            </table>
+        </form>
+        </div></center>
+
+    </body>
+</html>
+
+
